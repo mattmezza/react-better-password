@@ -73,7 +73,7 @@ class App extends React.Component {
 |onChange(`value`)|Function||The callback to be called when the value changes|
 |show|Bool|false|Wether to show the password or mask it|
 |mask|String|•|The character to use for the masking|
-|timeout|Number|1000|Time in milliseconds to delay the masking of the last character|
+|timeout|Number|2500|Time in milliseconds to delay the masking of the last character|
 
 Any additional props passed in will be directly applied to the input element. This is particularly when styling the component:
 ```js
