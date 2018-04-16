@@ -99,7 +99,7 @@ ReactBetterPassword.propTypes = {
 
 ReactBetterPassword.defaultProps = {
   value: '',
-  timeout: 1000,
+  timeout: 2500,
   mask: '•',
   show: false,
 };
